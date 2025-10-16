@@ -94,10 +94,11 @@ Filter for dns so we can observe that next  from the powershell command line use
 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1667" height="979" alt="Screenshot (104)" src="https://github.com/user-attachments/assets/b91ac998-d131-4b14-bf05-128827924553" />
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Head back to the azure cloud interface for linux vm  and add a new fire wall configuration rule that denys pings and make it priority access watch how the pinging starts returning that it never got the ack signal and watch how it goes back once u delete the rule
 
 
 
