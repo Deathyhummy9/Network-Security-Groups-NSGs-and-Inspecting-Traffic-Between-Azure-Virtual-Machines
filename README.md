@@ -103,7 +103,8 @@ Head back to the azure cloud interface for linux vm  and add a new fire wall con
 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1655" height="989" alt="Screenshot (105)" src="https://github.com/user-attachments/assets/1a83e330-3250-4e41-a863-be537ebe1454" />
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Next we will filter for rdp   rdp is unique since it is used to track remote desktop activity and its perfect for our test cause thats what we are using  see how it tracks everything from the move of a mouse to opening a page its like a live feed
