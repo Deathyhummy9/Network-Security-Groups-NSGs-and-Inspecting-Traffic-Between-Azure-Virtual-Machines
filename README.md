@@ -85,8 +85,24 @@ First filter to dhcp traffic to see So to observe dchp we open powershell and ru
 
 
 <p>
+\<img width="1670" height="989" alt="Screenshot (103)" src="https://github.com/user-attachments/assets/3cb714fc-818b-4710-ad27-784a67198953" />
+
+</p>
+<p>
+Filter for dns so we can observe that next  from the powershell command line use nslook up to see different ip addresses like google  now the ip address wont work to go to the website but observe the different activity that flows through wire shark
+
+
+
+<p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 
+
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
