@@ -3,7 +3,9 @@
 </p>
 
 <h1>Network Security Groups (NSGs) and Inspecting Traffic Between Azure Virtual Machines</h1>
-In this tutorial, we observe various network traffic to and from Azure Virtual Machines with Wireshark as well as experiment with Network Security Groups. <br />
+This lab demonstrates how to **analyze and inspect network traffic** between two virtual machines in Microsoft Azure using Wireshark and Network Security Groups (NSGs).  
+
+By capturing and filtering traffic for ICMP, DNS, DHCP, RDP, and SSH protocols, I simulated what a Tier 1 / Tier 2 support or security technician might do to troubleshoot or secure a network in real time. <br />
 
 
 <h2>Environments and Technologies Used</h2>
@@ -108,3 +110,27 @@ Head back to the azure cloud interface for linux vm  and add a new fire wall con
 </p>
 <p>
 Next we will filter for rdp   rdp is unique since it is used to track remote desktop activity and its perfect for our test cause thats what we are using  see how it tracks everything from the move of a mouse to opening a page its like a live feed
+
+
+Troubleshooting Notes
+
+If packets are not visible → ensure the correct NIC interface is selected in Wireshark.
+
+If ICMP fails unexpectedly → verify NSG and Windows Firewall rules.
+
+SSH failures usually stem from incorrect username/IP or blocked port 22.
+
+Results & Takeaways
+
+Successfully captured and analyzed five major protocols (ICMP, DNS, DHCP, SSH, RDP).
+ Observed the effect of firewall rules (NSG) on live traffic.
+ Demonstrated the difference between unencrypted (ICMP, DNS) and encrypted (SSH, RDP) traffic.
+ Practiced real troubleshooting workflows.
+
+Business Relevance:
+
+Network troubleshooting is one of the most critical skills for help desk and system support roles.
+
+Understanding how traffic flows between endpoints helps diagnose connectivity, security, and configuration issues in real enterprise environments.
+
+
